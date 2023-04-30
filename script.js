@@ -1,4 +1,9 @@
 //your JS code here. If required.
 const selectedval=document.getElementById("colorSelect");
-selectedval.remove(selectedval.selectedIndex);
+
+const selectbtn=document.getElementByTagName("input");
+function remove(){
+selectedval.remove(selectedIndex)}
+selectbtn.addEventListener("click",remove());
+
 
